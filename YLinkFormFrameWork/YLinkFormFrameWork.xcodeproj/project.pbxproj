@@ -1,0 +1,708 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26BFE09521C8A3D4001A6776 /* AAChartKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BFE05721C8A3D4001A6776 /* AAChartKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26BFE09621C8A3D4001A6776 /* AAChartModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BFE05821C8A3D4001A6776 /* AAChartModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26BFE09721C8A3D4001A6776 /* AAChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BFE05921C8A3D4001A6776 /* AAChartModel.m */; };
+		26BFE09821C8A3D4001A6776 /* AAChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BFE05A21C8A3D4001A6776 /* AAChartView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26BFE09921C8A3D4001A6776 /* AAChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BFE05B21C8A3D4001A6776 /* AAChartView.m */; };
+		26BFE09A21C8A3D4001A6776 /* AAGlobalMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BFE05C21C8A3D4001A6776 /* AAGlobalMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26BFE09B21C8A3D4001A6776 /* AAOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BFE05D21C8A3D4001A6776 /* AAOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26BFE09C21C8A3D4001A6776 /* AAOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BFE05E21C8A3D4001A6776 /* AAOptions.m */; };
+		26BFE09D21C8A3D4001A6776 /* AASeriesElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BFE05F21C8A3D4001A6776 /* AASeriesElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26BFE09E21C8A3D4001A6776 /* AASeriesElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BFE06021C8A3D4001A6776 /* AASeriesElement.m */; };
+		26BFE0A021C8A3D4001A6776 /* AAAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BFE06321C8A3D4001A6776 /* AAAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26BFE0A121C8A3D4001A6776 /* AAAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BFE06421C8A3D4001A6776 /* AAAnimation.m */; };
+		26BFE0A221C8A3D4001A6776 /* AAArea.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BFE06521C8A3D4001A6776 /* AAArea.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26BFE0A321C8A3D4001A6776 /* AAArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BFE06621C8A3D4001A6776 /* AAArea.m */; };
+		26BFE0A421C8A3D4001A6776 /* AAAreaspline.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BFE06721C8A3D4001A6776 /* AAAreaspline.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26BFE0A521C8A3D4001A6776 /* AAAreaspline.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BFE06821C8A3D4001A6776 /* AAAreaspline.m */; };
+		26BFE0A621C8A3D4001A6776 /* AABar.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BFE06921C8A3D4001A6776 /* AABar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26BFE0A721C8A3D4001A6776 /* AABar.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BFE06A21C8A3D4001A6776 /* AABar.m */; };
+		26BFE0A821C8A3D4001A6776 /* AAChart.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BFE06B21C8A3D4001A6776 /* AAChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26BFE0A921C8A3D4001A6776 /* AAChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BFE06C21C8A3D4001A6776 /* AAChart.m */; };
+		26BFE0AA21C8A3D4001A6776 /* AAColumn.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BFE06D21C8A3D4001A6776 /* AAColumn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26BFE0AB21C8A3D4001A6776 /* AAColumn.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BFE06E21C8A3D4001A6776 /* AAColumn.m */; };
+		26BFE0AC21C8A3D4001A6776 /* AACrosshair.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BFE06F21C8A3D4001A6776 /* AACrosshair.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26BFE0AD21C8A3D4001A6776 /* AACrosshair.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BFE07021C8A3D4001A6776 /* AACrosshair.m */; };
+		26BFE0AE21C8A3D4001A6776 /* AADataLabels.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BFE07121C8A3D4001A6776 /* AADataLabels.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26BFE0AF21C8A3D4001A6776 /* AADataLabels.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BFE07221C8A3D4001A6776 /* AADataLabels.m */; };
+		26BFE0B021C8A3D4001A6776 /* AAItemStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BFE07321C8A3D4001A6776 /* AAItemStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26BFE0B121C8A3D4001A6776 /* AAItemStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BFE07421C8A3D4001A6776 /* AAItemStyle.m */; };
+		26BFE0B221C8A3D4001A6776 /* AALabels.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BFE07521C8A3D4001A6776 /* AALabels.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26BFE0B321C8A3D4001A6776 /* AALabels.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BFE07621C8A3D4001A6776 /* AALabels.m */; };
+		26BFE0B421C8A3D4001A6776 /* AALegend.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BFE07721C8A3D4001A6776 /* AALegend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26BFE0B521C8A3D4001A6776 /* AALegend.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BFE07821C8A3D4001A6776 /* AALegend.m */; };
+		26BFE0B621C8A3D4001A6776 /* AALine.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BFE07921C8A3D4001A6776 /* AALine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26BFE0B721C8A3D4001A6776 /* AALine.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BFE07A21C8A3D4001A6776 /* AALine.m */; };
+		26BFE0B821C8A3D4001A6776 /* AAMarker.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BFE07B21C8A3D4001A6776 /* AAMarker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26BFE0B921C8A3D4001A6776 /* AAMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BFE07C21C8A3D4001A6776 /* AAMarker.m */; };
+		26BFE0BA21C8A3D4001A6776 /* AAOptions3d.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BFE07D21C8A3D4001A6776 /* AAOptions3d.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26BFE0BB21C8A3D4001A6776 /* AAOptions3d.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BFE07E21C8A3D4001A6776 /* AAOptions3d.m */; };
+		26BFE0BC21C8A3D4001A6776 /* AAPie.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BFE07F21C8A3D4001A6776 /* AAPie.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26BFE0BD21C8A3D4001A6776 /* AAPie.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BFE08021C8A3D4001A6776 /* AAPie.m */; };
+		26BFE0BE21C8A3D4001A6776 /* AAPlotLinesElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BFE08121C8A3D4001A6776 /* AAPlotLinesElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26BFE0BF21C8A3D4001A6776 /* AAPlotLinesElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BFE08221C8A3D4001A6776 /* AAPlotLinesElement.m */; };
+		26BFE0C021C8A3D4001A6776 /* AAPlotOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BFE08321C8A3D4001A6776 /* AAPlotOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26BFE0C121C8A3D5001A6776 /* AAPlotOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BFE08421C8A3D4001A6776 /* AAPlotOptions.m */; };
+		26BFE0C221C8A3D5001A6776 /* AASeries.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BFE08521C8A3D4001A6776 /* AASeries.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26BFE0C321C8A3D5001A6776 /* AASeries.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BFE08621C8A3D4001A6776 /* AASeries.m */; };
+		26BFE0C421C8A3D5001A6776 /* AASpline.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BFE08721C8A3D4001A6776 /* AASpline.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26BFE0C521C8A3D5001A6776 /* AASpline.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BFE08821C8A3D4001A6776 /* AASpline.m */; };
+		26BFE0C621C8A3D5001A6776 /* AAStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BFE08921C8A3D4001A6776 /* AAStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26BFE0C721C8A3D5001A6776 /* AAStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BFE08A21C8A3D4001A6776 /* AAStyle.m */; };
+		26BFE0C821C8A3D5001A6776 /* AASubtitle.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BFE08B21C8A3D4001A6776 /* AASubtitle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26BFE0C921C8A3D5001A6776 /* AASubtitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BFE08C21C8A3D4001A6776 /* AASubtitle.m */; };
+		26BFE0CA21C8A3D5001A6776 /* AATitle.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BFE08D21C8A3D4001A6776 /* AATitle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26BFE0CB21C8A3D5001A6776 /* AATitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BFE08E21C8A3D4001A6776 /* AATitle.m */; };
+		26BFE0CC21C8A3D5001A6776 /* AATooltip.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BFE08F21C8A3D4001A6776 /* AATooltip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26BFE0CD21C8A3D5001A6776 /* AATooltip.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BFE09021C8A3D4001A6776 /* AATooltip.m */; };
+		26BFE0CE21C8A3D5001A6776 /* AAXAxis.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BFE09121C8A3D4001A6776 /* AAXAxis.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26BFE0CF21C8A3D5001A6776 /* AAXAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BFE09221C8A3D4001A6776 /* AAXAxis.m */; };
+		26BFE0D021C8A3D5001A6776 /* AAYAxis.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BFE09321C8A3D4001A6776 /* AAYAxis.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26BFE0D121C8A3D5001A6776 /* AAYAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BFE09421C8A3D4001A6776 /* AAYAxis.m */; };
+		26DF8AE721C231070033277C /* YLinkFormFrameWork.h in Headers */ = {isa = PBXBuildFile; fileRef = 26DF8AE521C231070033277C /* YLinkFormFrameWork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26DF8AEF21C232010033277C /* YLinkObejct.h in Headers */ = {isa = PBXBuildFile; fileRef = 26DF8AED21C232010033277C /* YLinkObejct.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26DF8AF021C232010033277C /* YLinkObejct.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DF8AEE21C232010033277C /* YLinkObejct.m */; };
+		26DF8AFD21C232FB0033277C /* YlinkNativeBarChart.h in Headers */ = {isa = PBXBuildFile; fileRef = 26DF8AF221C232FB0033277C /* YlinkNativeBarChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26DF8AFE21C232FB0033277C /* YlinkNativeBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DF8AF321C232FB0033277C /* YlinkNativeBarChart.m */; };
+		26DF8AFF21C232FB0033277C /* YlinkNativeCharts.h in Headers */ = {isa = PBXBuildFile; fileRef = 26DF8AF421C232FB0033277C /* YlinkNativeCharts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26DF8B0021C232FB0033277C /* YlinkNativeCircleChart.h in Headers */ = {isa = PBXBuildFile; fileRef = 26DF8AF521C232FB0033277C /* YlinkNativeCircleChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26DF8B0121C232FB0033277C /* YlinkNativeCircleChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DF8AF621C232FB0033277C /* YlinkNativeCircleChart.m */; };
+		26DF8B0221C232FB0033277C /* YlinkNativeGaugeChart.h in Headers */ = {isa = PBXBuildFile; fileRef = 26DF8AF721C232FB0033277C /* YlinkNativeGaugeChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26DF8B0321C232FB0033277C /* YlinkNativeGaugeChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DF8AF821C232FB0033277C /* YlinkNativeGaugeChart.m */; };
+		26DF8B0421C232FB0033277C /* YlinkNativeLineChart.h in Headers */ = {isa = PBXBuildFile; fileRef = 26DF8AF921C232FB0033277C /* YlinkNativeLineChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26DF8B0521C232FB0033277C /* YlinkNativeLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DF8AFA21C232FB0033277C /* YlinkNativeLineChart.m */; };
+		26DF8B0621C232FB0033277C /* YlinkNativeRingChart.h in Headers */ = {isa = PBXBuildFile; fileRef = 26DF8AFB21C232FB0033277C /* YlinkNativeRingChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26DF8B0721C232FB0033277C /* YlinkNativeRingChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DF8AFC21C232FB0033277C /* YlinkNativeRingChart.m */; };
+		26DF8B3A21C353010033277C /* YlinkInteractiveMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = 26DF8B2521C353010033277C /* YlinkInteractiveMapView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26DF8B3B21C353010033277C /* YlinkInteractiveMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DF8B2621C353010033277C /* YlinkInteractiveMapView.m */; };
+		26DF8B3C21C353010033277C /* YlinkSVG.h in Headers */ = {isa = PBXBuildFile; fileRef = 26DF8B2821C353010033277C /* YlinkSVG.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26DF8B3D21C353010033277C /* YlinkSVG.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DF8B2921C353010033277C /* YlinkSVG.m */; };
+		26DF8B3E21C353010033277C /* YlinkVGPathElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 26DF8B2A21C353010033277C /* YlinkVGPathElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26DF8B3F21C353010033277C /* YlinkVGPathElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DF8B2B21C353010033277C /* YlinkVGPathElement.m */; };
+		26DF8B4021C353010033277C /* YinkSVGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 26DF8B2C21C353010033277C /* YinkSVGUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26DF8B4121C353010033277C /* YlinkSVGUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DF8B2D21C353010033277C /* YlinkSVGUtils.m */; };
+		26DF8B4321C354D50033277C /* Ylink.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 26DF8B4221C354D40033277C /* Ylink.bundle */; };
+		26DF8B4A21C35E6F0033277C /* NSObject+bundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 26DF8B4821C35E6F0033277C /* NSObject+bundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26DF8B4B21C35E6F0033277C /* NSObject+bundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DF8B4921C35E6F0033277C /* NSObject+bundle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26BFE05721C8A3D4001A6776 /* AAChartKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAChartKit.h; sourceTree = "<group>"; };
+		26BFE05821C8A3D4001A6776 /* AAChartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAChartModel.h; sourceTree = "<group>"; };
+		26BFE05921C8A3D4001A6776 /* AAChartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAChartModel.m; sourceTree = "<group>"; };
+		26BFE05A21C8A3D4001A6776 /* AAChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAChartView.h; sourceTree = "<group>"; };
+		26BFE05B21C8A3D4001A6776 /* AAChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAChartView.m; sourceTree = "<group>"; };
+		26BFE05C21C8A3D4001A6776 /* AAGlobalMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAGlobalMacro.h; sourceTree = "<group>"; };
+		26BFE05D21C8A3D4001A6776 /* AAOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAOptions.h; sourceTree = "<group>"; };
+		26BFE05E21C8A3D4001A6776 /* AAOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAOptions.m; sourceTree = "<group>"; };
+		26BFE05F21C8A3D4001A6776 /* AASeriesElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AASeriesElement.h; sourceTree = "<group>"; };
+		26BFE06021C8A3D4001A6776 /* AASeriesElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AASeriesElement.m; sourceTree = "<group>"; };
+		26BFE06321C8A3D4001A6776 /* AAAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAAnimation.h; sourceTree = "<group>"; };
+		26BFE06421C8A3D4001A6776 /* AAAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAAnimation.m; sourceTree = "<group>"; };
+		26BFE06521C8A3D4001A6776 /* AAArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAArea.h; sourceTree = "<group>"; };
+		26BFE06621C8A3D4001A6776 /* AAArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAArea.m; sourceTree = "<group>"; };
+		26BFE06721C8A3D4001A6776 /* AAAreaspline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAAreaspline.h; sourceTree = "<group>"; };
+		26BFE06821C8A3D4001A6776 /* AAAreaspline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAAreaspline.m; sourceTree = "<group>"; };
+		26BFE06921C8A3D4001A6776 /* AABar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AABar.h; sourceTree = "<group>"; };
+		26BFE06A21C8A3D4001A6776 /* AABar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AABar.m; sourceTree = "<group>"; };
+		26BFE06B21C8A3D4001A6776 /* AAChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAChart.h; sourceTree = "<group>"; };
+		26BFE06C21C8A3D4001A6776 /* AAChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAChart.m; sourceTree = "<group>"; };
+		26BFE06D21C8A3D4001A6776 /* AAColumn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAColumn.h; sourceTree = "<group>"; };
+		26BFE06E21C8A3D4001A6776 /* AAColumn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAColumn.m; sourceTree = "<group>"; };
+		26BFE06F21C8A3D4001A6776 /* AACrosshair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AACrosshair.h; sourceTree = "<group>"; };
+		26BFE07021C8A3D4001A6776 /* AACrosshair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AACrosshair.m; sourceTree = "<group>"; };
+		26BFE07121C8A3D4001A6776 /* AADataLabels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AADataLabels.h; sourceTree = "<group>"; };
+		26BFE07221C8A3D4001A6776 /* AADataLabels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AADataLabels.m; sourceTree = "<group>"; };
+		26BFE07321C8A3D4001A6776 /* AAItemStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAItemStyle.h; sourceTree = "<group>"; };
+		26BFE07421C8A3D4001A6776 /* AAItemStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAItemStyle.m; sourceTree = "<group>"; };
+		26BFE07521C8A3D4001A6776 /* AALabels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AALabels.h; sourceTree = "<group>"; };
+		26BFE07621C8A3D4001A6776 /* AALabels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AALabels.m; sourceTree = "<group>"; };
+		26BFE07721C8A3D4001A6776 /* AALegend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AALegend.h; sourceTree = "<group>"; };
+		26BFE07821C8A3D4001A6776 /* AALegend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AALegend.m; sourceTree = "<group>"; };
+		26BFE07921C8A3D4001A6776 /* AALine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AALine.h; sourceTree = "<group>"; };
+		26BFE07A21C8A3D4001A6776 /* AALine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AALine.m; sourceTree = "<group>"; };
+		26BFE07B21C8A3D4001A6776 /* AAMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAMarker.h; sourceTree = "<group>"; };
+		26BFE07C21C8A3D4001A6776 /* AAMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAMarker.m; sourceTree = "<group>"; };
+		26BFE07D21C8A3D4001A6776 /* AAOptions3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAOptions3d.h; sourceTree = "<group>"; };
+		26BFE07E21C8A3D4001A6776 /* AAOptions3d.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAOptions3d.m; sourceTree = "<group>"; };
+		26BFE07F21C8A3D4001A6776 /* AAPie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPie.h; sourceTree = "<group>"; };
+		26BFE08021C8A3D4001A6776 /* AAPie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPie.m; sourceTree = "<group>"; };
+		26BFE08121C8A3D4001A6776 /* AAPlotLinesElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPlotLinesElement.h; sourceTree = "<group>"; };
+		26BFE08221C8A3D4001A6776 /* AAPlotLinesElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPlotLinesElement.m; sourceTree = "<group>"; };
+		26BFE08321C8A3D4001A6776 /* AAPlotOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPlotOptions.h; sourceTree = "<group>"; };
+		26BFE08421C8A3D4001A6776 /* AAPlotOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPlotOptions.m; sourceTree = "<group>"; };
+		26BFE08521C8A3D4001A6776 /* AASeries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AASeries.h; sourceTree = "<group>"; };
+		26BFE08621C8A3D4001A6776 /* AASeries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AASeries.m; sourceTree = "<group>"; };
+		26BFE08721C8A3D4001A6776 /* AASpline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AASpline.h; sourceTree = "<group>"; };
+		26BFE08821C8A3D4001A6776 /* AASpline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AASpline.m; sourceTree = "<group>"; };
+		26BFE08921C8A3D4001A6776 /* AAStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAStyle.h; sourceTree = "<group>"; };
+		26BFE08A21C8A3D4001A6776 /* AAStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAStyle.m; sourceTree = "<group>"; };
+		26BFE08B21C8A3D4001A6776 /* AASubtitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AASubtitle.h; sourceTree = "<group>"; };
+		26BFE08C21C8A3D4001A6776 /* AASubtitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AASubtitle.m; sourceTree = "<group>"; };
+		26BFE08D21C8A3D4001A6776 /* AATitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AATitle.h; sourceTree = "<group>"; };
+		26BFE08E21C8A3D4001A6776 /* AATitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AATitle.m; sourceTree = "<group>"; };
+		26BFE08F21C8A3D4001A6776 /* AATooltip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AATooltip.h; sourceTree = "<group>"; };
+		26BFE09021C8A3D4001A6776 /* AATooltip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AATooltip.m; sourceTree = "<group>"; };
+		26BFE09121C8A3D4001A6776 /* AAXAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAXAxis.h; sourceTree = "<group>"; };
+		26BFE09221C8A3D4001A6776 /* AAXAxis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAXAxis.m; sourceTree = "<group>"; };
+		26BFE09321C8A3D4001A6776 /* AAYAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAYAxis.h; sourceTree = "<group>"; };
+		26BFE09421C8A3D4001A6776 /* AAYAxis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAYAxis.m; sourceTree = "<group>"; };
+		26DF8AE221C231070033277C /* YLinkFormFrameWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YLinkFormFrameWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26DF8AE521C231070033277C /* YLinkFormFrameWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLinkFormFrameWork.h; sourceTree = "<group>"; };
+		26DF8AE621C231070033277C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26DF8AED21C232010033277C /* YLinkObejct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLinkObejct.h; sourceTree = "<group>"; };
+		26DF8AEE21C232010033277C /* YLinkObejct.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLinkObejct.m; sourceTree = "<group>"; };
+		26DF8AF221C232FB0033277C /* YlinkNativeBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YlinkNativeBarChart.h; sourceTree = "<group>"; };
+		26DF8AF321C232FB0033277C /* YlinkNativeBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YlinkNativeBarChart.m; sourceTree = "<group>"; };
+		26DF8AF421C232FB0033277C /* YlinkNativeCharts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YlinkNativeCharts.h; sourceTree = "<group>"; };
+		26DF8AF521C232FB0033277C /* YlinkNativeCircleChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YlinkNativeCircleChart.h; sourceTree = "<group>"; };
+		26DF8AF621C232FB0033277C /* YlinkNativeCircleChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YlinkNativeCircleChart.m; sourceTree = "<group>"; };
+		26DF8AF721C232FB0033277C /* YlinkNativeGaugeChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YlinkNativeGaugeChart.h; sourceTree = "<group>"; };
+		26DF8AF821C232FB0033277C /* YlinkNativeGaugeChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YlinkNativeGaugeChart.m; sourceTree = "<group>"; };
+		26DF8AF921C232FB0033277C /* YlinkNativeLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YlinkNativeLineChart.h; sourceTree = "<group>"; };
+		26DF8AFA21C232FB0033277C /* YlinkNativeLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YlinkNativeLineChart.m; sourceTree = "<group>"; };
+		26DF8AFB21C232FB0033277C /* YlinkNativeRingChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YlinkNativeRingChart.h; sourceTree = "<group>"; };
+		26DF8AFC21C232FB0033277C /* YlinkNativeRingChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YlinkNativeRingChart.m; sourceTree = "<group>"; };
+		26DF8B2521C353010033277C /* YlinkInteractiveMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YlinkInteractiveMapView.h; sourceTree = "<group>"; };
+		26DF8B2621C353010033277C /* YlinkInteractiveMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YlinkInteractiveMapView.m; sourceTree = "<group>"; };
+		26DF8B2821C353010033277C /* YlinkSVG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YlinkSVG.h; sourceTree = "<group>"; };
+		26DF8B2921C353010033277C /* YlinkSVG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YlinkSVG.m; sourceTree = "<group>"; };
+		26DF8B2A21C353010033277C /* YlinkVGPathElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YlinkVGPathElement.h; sourceTree = "<group>"; };
+		26DF8B2B21C353010033277C /* YlinkVGPathElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YlinkVGPathElement.m; sourceTree = "<group>"; };
+		26DF8B2C21C353010033277C /* YinkSVGUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YinkSVGUtils.h; sourceTree = "<group>"; };
+		26DF8B2D21C353010033277C /* YlinkSVGUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YlinkSVGUtils.m; sourceTree = "<group>"; };
+		26DF8B4221C354D40033277C /* Ylink.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Ylink.bundle; sourceTree = "<group>"; };
+		26DF8B4821C35E6F0033277C /* NSObject+bundle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+bundle.h"; sourceTree = "<group>"; };
+		26DF8B4921C35E6F0033277C /* NSObject+bundle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+bundle.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26DF8ADE21C231070033277C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26BFE05521C8A3D4001A6776 /* AAChartKitLib */ = {
+			isa = PBXGroup;
+			children = (
+				26BFE05621C8A3D4001A6776 /* AAChartConfiger */,
+				26BFE06221C8A3D4001A6776 /* AAOptionsModel */,
+			);
+			path = AAChartKitLib;
+			sourceTree = "<group>";
+		};
+		26BFE05621C8A3D4001A6776 /* AAChartConfiger */ = {
+			isa = PBXGroup;
+			children = (
+				26BFE05721C8A3D4001A6776 /* AAChartKit.h */,
+				26BFE05821C8A3D4001A6776 /* AAChartModel.h */,
+				26BFE05921C8A3D4001A6776 /* AAChartModel.m */,
+				26BFE05A21C8A3D4001A6776 /* AAChartView.h */,
+				26BFE05B21C8A3D4001A6776 /* AAChartView.m */,
+				26BFE05C21C8A3D4001A6776 /* AAGlobalMacro.h */,
+				26BFE05D21C8A3D4001A6776 /* AAOptions.h */,
+				26BFE05E21C8A3D4001A6776 /* AAOptions.m */,
+				26BFE05F21C8A3D4001A6776 /* AASeriesElement.h */,
+				26BFE06021C8A3D4001A6776 /* AASeriesElement.m */,
+			);
+			path = AAChartConfiger;
+			sourceTree = "<group>";
+		};
+		26BFE06221C8A3D4001A6776 /* AAOptionsModel */ = {
+			isa = PBXGroup;
+			children = (
+				26BFE06321C8A3D4001A6776 /* AAAnimation.h */,
+				26BFE06421C8A3D4001A6776 /* AAAnimation.m */,
+				26BFE06521C8A3D4001A6776 /* AAArea.h */,
+				26BFE06621C8A3D4001A6776 /* AAArea.m */,
+				26BFE06721C8A3D4001A6776 /* AAAreaspline.h */,
+				26BFE06821C8A3D4001A6776 /* AAAreaspline.m */,
+				26BFE06921C8A3D4001A6776 /* AABar.h */,
+				26BFE06A21C8A3D4001A6776 /* AABar.m */,
+				26BFE06B21C8A3D4001A6776 /* AAChart.h */,
+				26BFE06C21C8A3D4001A6776 /* AAChart.m */,
+				26BFE06D21C8A3D4001A6776 /* AAColumn.h */,
+				26BFE06E21C8A3D4001A6776 /* AAColumn.m */,
+				26BFE06F21C8A3D4001A6776 /* AACrosshair.h */,
+				26BFE07021C8A3D4001A6776 /* AACrosshair.m */,
+				26BFE07121C8A3D4001A6776 /* AADataLabels.h */,
+				26BFE07221C8A3D4001A6776 /* AADataLabels.m */,
+				26BFE07321C8A3D4001A6776 /* AAItemStyle.h */,
+				26BFE07421C8A3D4001A6776 /* AAItemStyle.m */,
+				26BFE07521C8A3D4001A6776 /* AALabels.h */,
+				26BFE07621C8A3D4001A6776 /* AALabels.m */,
+				26BFE07721C8A3D4001A6776 /* AALegend.h */,
+				26BFE07821C8A3D4001A6776 /* AALegend.m */,
+				26BFE07921C8A3D4001A6776 /* AALine.h */,
+				26BFE07A21C8A3D4001A6776 /* AALine.m */,
+				26BFE07B21C8A3D4001A6776 /* AAMarker.h */,
+				26BFE07C21C8A3D4001A6776 /* AAMarker.m */,
+				26BFE07D21C8A3D4001A6776 /* AAOptions3d.h */,
+				26BFE07E21C8A3D4001A6776 /* AAOptions3d.m */,
+				26BFE07F21C8A3D4001A6776 /* AAPie.h */,
+				26BFE08021C8A3D4001A6776 /* AAPie.m */,
+				26BFE08121C8A3D4001A6776 /* AAPlotLinesElement.h */,
+				26BFE08221C8A3D4001A6776 /* AAPlotLinesElement.m */,
+				26BFE08321C8A3D4001A6776 /* AAPlotOptions.h */,
+				26BFE08421C8A3D4001A6776 /* AAPlotOptions.m */,
+				26BFE08521C8A3D4001A6776 /* AASeries.h */,
+				26BFE08621C8A3D4001A6776 /* AASeries.m */,
+				26BFE08721C8A3D4001A6776 /* AASpline.h */,
+				26BFE08821C8A3D4001A6776 /* AASpline.m */,
+				26BFE08921C8A3D4001A6776 /* AAStyle.h */,
+				26BFE08A21C8A3D4001A6776 /* AAStyle.m */,
+				26BFE08B21C8A3D4001A6776 /* AASubtitle.h */,
+				26BFE08C21C8A3D4001A6776 /* AASubtitle.m */,
+				26BFE08D21C8A3D4001A6776 /* AATitle.h */,
+				26BFE08E21C8A3D4001A6776 /* AATitle.m */,
+				26BFE08F21C8A3D4001A6776 /* AATooltip.h */,
+				26BFE09021C8A3D4001A6776 /* AATooltip.m */,
+				26BFE09121C8A3D4001A6776 /* AAXAxis.h */,
+				26BFE09221C8A3D4001A6776 /* AAXAxis.m */,
+				26BFE09321C8A3D4001A6776 /* AAYAxis.h */,
+				26BFE09421C8A3D4001A6776 /* AAYAxis.m */,
+			);
+			path = AAOptionsModel;
+			sourceTree = "<group>";
+		};
+		26DF8AD821C231070033277C = {
+			isa = PBXGroup;
+			children = (
+				26DF8AE421C231070033277C /* YLinkFormFrameWork */,
+				26DF8AE321C231070033277C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26DF8AE321C231070033277C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26DF8AE221C231070033277C /* YLinkFormFrameWork.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26DF8AE421C231070033277C /* YLinkFormFrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				26BFE05521C8A3D4001A6776 /* AAChartKitLib */,
+				26DF8B1721C353010033277C /* YlinkInteractiveMap */,
+				26DF8AF121C232FB0033277C /* YlinkNativeCharts */,
+				26DF8AF421C232FB0033277C /* YlinkNativeCharts.h */,
+				26DF8AED21C232010033277C /* YLinkObejct.h */,
+				26DF8AEE21C232010033277C /* YLinkObejct.m */,
+				26DF8B4821C35E6F0033277C /* NSObject+bundle.h */,
+				26DF8B4921C35E6F0033277C /* NSObject+bundle.m */,
+				26DF8AE521C231070033277C /* YLinkFormFrameWork.h */,
+				26DF8B4221C354D40033277C /* Ylink.bundle */,
+				26DF8AE621C231070033277C /* Info.plist */,
+			);
+			path = YLinkFormFrameWork;
+			sourceTree = "<group>";
+		};
+		26DF8AF121C232FB0033277C /* YlinkNativeCharts */ = {
+			isa = PBXGroup;
+			children = (
+				26DF8AF221C232FB0033277C /* YlinkNativeBarChart.h */,
+				26DF8AF321C232FB0033277C /* YlinkNativeBarChart.m */,
+				26DF8AF521C232FB0033277C /* YlinkNativeCircleChart.h */,
+				26DF8AF621C232FB0033277C /* YlinkNativeCircleChart.m */,
+				26DF8AF721C232FB0033277C /* YlinkNativeGaugeChart.h */,
+				26DF8AF821C232FB0033277C /* YlinkNativeGaugeChart.m */,
+				26DF8AF921C232FB0033277C /* YlinkNativeLineChart.h */,
+				26DF8AFA21C232FB0033277C /* YlinkNativeLineChart.m */,
+				26DF8AFB21C232FB0033277C /* YlinkNativeRingChart.h */,
+				26DF8AFC21C232FB0033277C /* YlinkNativeRingChart.m */,
+			);
+			path = YlinkNativeCharts;
+			sourceTree = "<group>";
+		};
+		26DF8B1721C353010033277C /* YlinkInteractiveMap */ = {
+			isa = PBXGroup;
+			children = (
+				26DF8B2521C353010033277C /* YlinkInteractiveMapView.h */,
+				26DF8B2621C353010033277C /* YlinkInteractiveMapView.m */,
+				26DF8B2721C353010033277C /* YlinkSVG */,
+			);
+			path = YlinkInteractiveMap;
+			sourceTree = "<group>";
+		};
+		26DF8B2721C353010033277C /* YlinkSVG */ = {
+			isa = PBXGroup;
+			children = (
+				26DF8B2821C353010033277C /* YlinkSVG.h */,
+				26DF8B2921C353010033277C /* YlinkSVG.m */,
+				26DF8B2A21C353010033277C /* YlinkVGPathElement.h */,
+				26DF8B2B21C353010033277C /* YlinkVGPathElement.m */,
+				26DF8B2C21C353010033277C /* YinkSVGUtils.h */,
+				26DF8B2D21C353010033277C /* YlinkSVGUtils.m */,
+			);
+			path = YlinkSVG;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		26DF8ADF21C231070033277C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DF8B3A21C353010033277C /* YlinkInteractiveMapView.h in Headers */,
+				26DF8AE721C231070033277C /* YLinkFormFrameWork.h in Headers */,
+				26DF8AFF21C232FB0033277C /* YlinkNativeCharts.h in Headers */,
+				26DF8B0421C232FB0033277C /* YlinkNativeLineChart.h in Headers */,
+				26DF8B0021C232FB0033277C /* YlinkNativeCircleChart.h in Headers */,
+				26BFE09821C8A3D4001A6776 /* AAChartView.h in Headers */,
+				26BFE09521C8A3D4001A6776 /* AAChartKit.h in Headers */,
+				26BFE0B021C8A3D4001A6776 /* AAItemStyle.h in Headers */,
+				26BFE09D21C8A3D4001A6776 /* AASeriesElement.h in Headers */,
+				26BFE0A421C8A3D4001A6776 /* AAAreaspline.h in Headers */,
+				26BFE0B821C8A3D4001A6776 /* AAMarker.h in Headers */,
+				26BFE0C021C8A3D4001A6776 /* AAPlotOptions.h in Headers */,
+				26BFE0D021C8A3D5001A6776 /* AAYAxis.h in Headers */,
+				26BFE09621C8A3D4001A6776 /* AAChartModel.h in Headers */,
+				26BFE0B621C8A3D4001A6776 /* AALine.h in Headers */,
+				26BFE0C421C8A3D5001A6776 /* AASpline.h in Headers */,
+				26BFE0CA21C8A3D5001A6776 /* AATitle.h in Headers */,
+				26BFE09B21C8A3D4001A6776 /* AAOptions.h in Headers */,
+				26BFE0A021C8A3D4001A6776 /* AAAnimation.h in Headers */,
+				26BFE09A21C8A3D4001A6776 /* AAGlobalMacro.h in Headers */,
+				26BFE0A621C8A3D4001A6776 /* AABar.h in Headers */,
+				26BFE0B221C8A3D4001A6776 /* AALabels.h in Headers */,
+				26BFE0C821C8A3D5001A6776 /* AASubtitle.h in Headers */,
+				26BFE0BA21C8A3D4001A6776 /* AAOptions3d.h in Headers */,
+				26BFE0AA21C8A3D4001A6776 /* AAColumn.h in Headers */,
+				26BFE0A821C8A3D4001A6776 /* AAChart.h in Headers */,
+				26BFE0CE21C8A3D5001A6776 /* AAXAxis.h in Headers */,
+				26BFE0C621C8A3D5001A6776 /* AAStyle.h in Headers */,
+				26BFE0B421C8A3D4001A6776 /* AALegend.h in Headers */,
+				26BFE0CC21C8A3D5001A6776 /* AATooltip.h in Headers */,
+				26BFE0AC21C8A3D4001A6776 /* AACrosshair.h in Headers */,
+				26BFE0BE21C8A3D4001A6776 /* AAPlotLinesElement.h in Headers */,
+				26BFE0A221C8A3D4001A6776 /* AAArea.h in Headers */,
+				26BFE0BC21C8A3D4001A6776 /* AAPie.h in Headers */,
+				26BFE0C221C8A3D5001A6776 /* AASeries.h in Headers */,
+				26BFE0AE21C8A3D4001A6776 /* AADataLabels.h in Headers */,
+				26DF8B0621C232FB0033277C /* YlinkNativeRingChart.h in Headers */,
+				26DF8AFD21C232FB0033277C /* YlinkNativeBarChart.h in Headers */,
+				26DF8B0221C232FB0033277C /* YlinkNativeGaugeChart.h in Headers */,
+				26DF8B4A21C35E6F0033277C /* NSObject+bundle.h in Headers */,
+				26DF8B4021C353010033277C /* YinkSVGUtils.h in Headers */,
+				26DF8B3C21C353010033277C /* YlinkSVG.h in Headers */,
+				26DF8B3E21C353010033277C /* YlinkVGPathElement.h in Headers */,
+				26DF8AEF21C232010033277C /* YLinkObejct.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		26DF8AE121C231070033277C /* YLinkFormFrameWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26DF8AEA21C231070033277C /* Build configuration list for PBXNativeTarget "YLinkFormFrameWork" */;
+			buildPhases = (
+				26DF8ADD21C231070033277C /* Sources */,
+				26DF8ADE21C231070033277C /* Frameworks */,
+				26DF8ADF21C231070033277C /* Headers */,
+				26DF8AE021C231070033277C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YLinkFormFrameWork;
+			productName = YLinkFormFrameWork;
+			productReference = 26DF8AE221C231070033277C /* YLinkFormFrameWork.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26DF8AD921C231070033277C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Sven;
+				TargetAttributes = {
+					26DF8AE121C231070033277C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 26DF8ADC21C231070033277C /* Build configuration list for PBXProject "YLinkFormFrameWork" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 26DF8AD821C231070033277C;
+			productRefGroup = 26DF8AE321C231070033277C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26DF8AE121C231070033277C /* YLinkFormFrameWork */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26DF8AE021C231070033277C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DF8B4321C354D50033277C /* Ylink.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26DF8ADD21C231070033277C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26BFE0BF21C8A3D4001A6776 /* AAPlotLinesElement.m in Sources */,
+				26BFE0BD21C8A3D4001A6776 /* AAPie.m in Sources */,
+				26BFE0B521C8A3D4001A6776 /* AALegend.m in Sources */,
+				26BFE0C721C8A3D5001A6776 /* AAStyle.m in Sources */,
+				26BFE0CF21C8A3D5001A6776 /* AAXAxis.m in Sources */,
+				26BFE0AB21C8A3D4001A6776 /* AAColumn.m in Sources */,
+				26BFE0C921C8A3D5001A6776 /* AASubtitle.m in Sources */,
+				26BFE0A921C8A3D4001A6776 /* AAChart.m in Sources */,
+				26BFE0CB21C8A3D5001A6776 /* AATitle.m in Sources */,
+				26DF8B3B21C353010033277C /* YlinkInteractiveMapView.m in Sources */,
+				26BFE0B321C8A3D4001A6776 /* AALabels.m in Sources */,
+				26BFE0B921C8A3D4001A6776 /* AAMarker.m in Sources */,
+				26BFE0A521C8A3D4001A6776 /* AAAreaspline.m in Sources */,
+				26DF8B0721C232FB0033277C /* YlinkNativeRingChart.m in Sources */,
+				26BFE0C321C8A3D5001A6776 /* AASeries.m in Sources */,
+				26BFE0A321C8A3D4001A6776 /* AAArea.m in Sources */,
+				26BFE0A721C8A3D4001A6776 /* AABar.m in Sources */,
+				26DF8B0321C232FB0033277C /* YlinkNativeGaugeChart.m in Sources */,
+				26BFE0BB21C8A3D4001A6776 /* AAOptions3d.m in Sources */,
+				26DF8B4121C353010033277C /* YlinkSVGUtils.m in Sources */,
+				26DF8B3D21C353010033277C /* YlinkSVG.m in Sources */,
+				26BFE0B121C8A3D4001A6776 /* AAItemStyle.m in Sources */,
+				26BFE0C521C8A3D5001A6776 /* AASpline.m in Sources */,
+				26BFE09921C8A3D4001A6776 /* AAChartView.m in Sources */,
+				26DF8B0521C232FB0033277C /* YlinkNativeLineChart.m in Sources */,
+				26BFE09721C8A3D4001A6776 /* AAChartModel.m in Sources */,
+				26DF8AFE21C232FB0033277C /* YlinkNativeBarChart.m in Sources */,
+				26DF8AF021C232010033277C /* YLinkObejct.m in Sources */,
+				26BFE0CD21C8A3D5001A6776 /* AATooltip.m in Sources */,
+				26BFE0A121C8A3D4001A6776 /* AAAnimation.m in Sources */,
+				26BFE0C121C8A3D5001A6776 /* AAPlotOptions.m in Sources */,
+				26BFE0AF21C8A3D4001A6776 /* AADataLabels.m in Sources */,
+				26BFE0B721C8A3D4001A6776 /* AALine.m in Sources */,
+				26DF8B4B21C35E6F0033277C /* NSObject+bundle.m in Sources */,
+				26BFE09E21C8A3D4001A6776 /* AASeriesElement.m in Sources */,
+				26BFE0AD21C8A3D4001A6776 /* AACrosshair.m in Sources */,
+				26BFE0D121C8A3D5001A6776 /* AAYAxis.m in Sources */,
+				26DF8B3F21C353010033277C /* YlinkVGPathElement.m in Sources */,
+				26BFE09C21C8A3D4001A6776 /* AAOptions.m in Sources */,
+				26DF8B0121C232FB0033277C /* YlinkNativeCircleChart.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		26DF8AE821C231070033277C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		26DF8AE921C231070033277C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		26DF8AEB21C231070033277C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = GCUWM4M49M;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = YLinkFormFrameWork/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = Sven.YLinkFormFrameWork;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26DF8AEC21C231070033277C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = GCUWM4M49M;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = YLinkFormFrameWork/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = Sven.YLinkFormFrameWork;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26DF8ADC21C231070033277C /* Build configuration list for PBXProject "YLinkFormFrameWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26DF8AE821C231070033277C /* Debug */,
+				26DF8AE921C231070033277C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26DF8AEA21C231070033277C /* Build configuration list for PBXNativeTarget "YLinkFormFrameWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26DF8AEB21C231070033277C /* Debug */,
+				26DF8AEC21C231070033277C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26DF8AD921C231070033277C /* Project object */;
+}
